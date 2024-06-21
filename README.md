@@ -2,6 +2,10 @@
 
 NextJs-CodeEditor is a simple code editor built using Next.js, TypeScript, Tailwind CSS, Shadcn UI, AWS Amplify, and Docker. Whether you're a developer looking for a lightweight code editing solution or an educator teaching programming concepts, this project aims to provide an intuitive and responsive interface.
 
+## Watch the video by clicking on the thumbnail below:
+[![Code Editor](https://img.youtube.com/vi/RocPUdO5eNM/maxresdefault.jpg)](https://www.youtube.com/embed/RocPUdO5eNM?si=7nWWtYXHQbyb5HA5)
+
+
 ## Features
 
 1. **Code Editing:**
@@ -51,7 +55,7 @@ NextJs-CodeEditor is a simple code editor built using Next.js, TypeScript, Tailw
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/NextJs-CodeEditor.git
+    git clone https://github.com/Shivkumar-Raghuwanshi/NextJs-CodeEditor.git
     ```
 
 2. Install dependencies:
