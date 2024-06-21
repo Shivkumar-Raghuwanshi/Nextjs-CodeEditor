@@ -12,14 +12,19 @@ NextJs-CodeEditor is a simple code editor built using Next.js, TypeScript, Tailw
    - Users can create, edit, and save code snippets directly in the browser.
    - Syntax highlighting enhances readability for various programming languages.
 
-2. **Responsive Design:**
-   - The interface adapts to different screen sizes, making it usable on desktops, tablets, and mobile devices.
+2. **Auto-Suggestions:**
+   - The code editor provides intelligent auto-suggestions as you type.
+   - Suggestions are context-aware and based on the current language and scope.
 
-3. **Deployment with AWS Amplify:**
+3. **Powered by Monaco Editor:**
+   - We've integrated the Monaco Editor, the same code editor used in Visual Studio Code (VS Code).
+   - Monaco offers features like code completion, error checking, and a familiar interface.
+
+4. **Deployment with AWS Amplify:**
    - We've chosen AWS Amplify for deployment due to its simplicity and seamless integration with GitHub repositories.
    - Amplify automatically builds and deploys your app whenever you push changes to the repository.
 
-4. **Containerization with Docker:**
+5. **Containerization with Docker:**
    - Docker provides a consistent development and deployment environment.
    - You can easily package your Next.js app into a Docker container for deployment.
 
@@ -84,4 +89,4 @@ NextJs-CodeEditor is a simple code editor built using Next.js, TypeScript, Tailw
 You can find the Docker image for this project on Docker Hub at:
 
 ```bash
-docker pull shivkumar56/codeEditor
+docker pull shivkumar56/codeeditor
